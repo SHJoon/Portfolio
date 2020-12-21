@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Nav from '../components/Nav';
 import AboutMe from '../components/AboutMe';
 
 const Main = () => {
@@ -7,7 +6,6 @@ const Main = () => {
 
     return(
         <div>
-            <Nav />
             <AboutMe />
         </div>
     )
