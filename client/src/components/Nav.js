@@ -5,11 +5,12 @@ const Nav = () => {
 
     return(
         <div>
-            <Link to="/">Homepage</Link>
-            <Link to="/projects">Projects</Link>
-            <a src="https://github.com/SHJoon">GitHub</a>
-            <a src="https://www.linkedin.com/in/howard-shin/">GitHub</a>
-            <Link to="/resume">Resume</Link>
+            <Link to="/">Homepage </Link>
+            <div>
+                <a href="https://github.com/SHJoon">GitHub </a>
+                <a href="https://www.linkedin.com/in/howard-shin/">Linkedin </a>
+                <Link to="/resume">Resume</Link>
+            </div>
         </div>
     )
 }

@@ -1,12 +1,17 @@
 import React from 'react';
 import resume from '../documents/resume.pdf';
-import { Document, Page } from "react-pdf";
+import { Document, Page, pdfjs } from "react-pdf";
 
 const Resume = () => {
+    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
     return(
         <div>
-            <Document file={resume}></Document>
+            <Document file={resume}>
+                <Page object-fit="fill" pageNumber={1}></Page>
+            </Document>
         </div>
     )
 }
+
+export default Resume;
