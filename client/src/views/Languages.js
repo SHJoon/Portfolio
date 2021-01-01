@@ -4,9 +4,24 @@ const Languages = () => {
 
     return(
         <div>
-            <div>Python</div>
-            <div>JavaScript</div>
-            <div>Java</div>
+            <div>
+                <span>Python</span>
+                <div>
+                    
+                </div>
+            </div>
+            <div>
+                <span>JavaScript</span>
+                <div>
+                    
+                </div>
+            </div>
+            <div>
+                <span>Java</span>
+                <div>
+                    
+                </div>
+            </div>
         </div>
     )
 }
