@@ -6,7 +6,7 @@ const Nav = () => {
 
     return(
         <div>
-            <Link to="/"><img src={logo} alt="logo" /></Link>
+            <Link to="/"><img src={logo} alt="logo" className="logo" /></Link>
             <div>
                 <a href="https://github.com/SHJoon">GitHub </a>
                 <a href="https://www.linkedin.com/in/howard-shin/">Linkedin </a>
