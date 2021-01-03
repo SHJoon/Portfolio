@@ -10,7 +10,7 @@ const Languages = () => {
             <p>Languages</p>
             
             <div>
-                <img src={ python } />
+                <img src={ python } alt="python" />
                 <h1>Python</h1>
                 <div className="lang-description">
                     <div>
@@ -18,14 +18,14 @@ const Languages = () => {
                         <p className="webframe">Django</p>
                     </div>
                     <div>
-                        <p className="desc-title">Used Techs</p>
-                        <p className="used-techs"></p>
+                        <p className="desc-title">Techs Utilized</p>
+                        <p className="used-techs">, </p>
                     </div>
                 </div>
             </div>
 
             <div>
-                <img src={ javascript } />
+                <img src={ javascript } alt="javascript" />
                 <h1>JavaScript</h1>
                 <div className="lang-description">
                     <div>
@@ -33,14 +33,14 @@ const Languages = () => {
                         <p className="webframe">MERN Stack</p>
                     </div>
                     <div>
-                        <p className="desc-title">Used Techs</p>
+                        <p className="desc-title">Techs Utilized</p>
                         <p className="used-techs"></p>
                     </div>
                 </div>
             </div>
 
             <div>
-                <img src={ java } />
+                <img src={ java } alt="java" />
                 <h1>Java</h1>
                 <div className="lang-description">
                     <div>
@@ -48,7 +48,7 @@ const Languages = () => {
                         <p className="webframe">Spring Boot</p>
                     </div>
                     <div>
-                        <p className="desc-title">Used Techs</p>
+                        <p className="desc-title">Techs Utilized</p>
                         <p className="used-techs"></p>
                     </div>
                 </div>
