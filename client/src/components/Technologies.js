@@ -20,7 +20,7 @@ const Technologies = () => {
                 <div className="lang-description">
                     <div>
                         <p className="desc-title">Languages</p>
-                        <p className="webframe">HTML, CSS, JavaScript</p>
+                        <p className="desc-content">HTML, CSS, JavaScript</p>
                     </div>
                     <div>
                         <p className="desc-title">Techs Utilized</p>
@@ -37,13 +37,13 @@ const Technologies = () => {
                 <div className="lang-description">
                     <div>
                         <p className="desc-title">Languages</p>
-                        <p className="webframe">Python, JavaScript, Java</p>
+                        <p className="desc-content">Python, JavaScript, Java</p>
                     </div>
                     <div>
                         <p className="desc-title">Techs Utilized</p>
                         <p className="used-techs">
                             Django, MongoDB, Express.js, Node.js, Socket.IO, Spring Boot, MySQL, NoSQL, 
-                            bcrypt, RESTful API, ORM, MVC, MTV
+                            bcrypt, Regex
                         </p>
                     </div>
                 </div>
@@ -53,15 +53,15 @@ const Technologies = () => {
                 <h1>Related Skills</h1>
                 <div className="lang-description">
                     <div>
-                        <p className="desc-title">Libraries</p>
-                        <p className="webframe">
-                            scikit-learn, NumPy, Matplotlib, pandas, Discord.py, gspread, 
-                            
+                        <p className="desc-title">Tools</p>
+                        <p className="desc-content">
+                            Git, GitHub, Visual Studios Code, PSpice, AWS Deployment, Discord API, Google Spreadsheet API, 
+                            Google Maps API
                         </p>
                     </div>
                     <div>
-                        <p className="desc-title">Techs Utilized</p>
-                        <p className="used-techs"></p>
+                        <p className="desc-title">Concepts</p>
+                        <p className="used-techs">Machine learning, Data science, ORM, MTV, MVC, Asynchronous programming</p>
                     </div>
                 </div>
             </div>
