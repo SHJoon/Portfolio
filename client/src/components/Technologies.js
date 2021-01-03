@@ -50,18 +50,20 @@ const Technologies = () => {
             </div>
 
             <div>
-                <h1>Related Skills</h1>
+                <h1>Other Skills</h1>
                 <div className="lang-description">
                     <div>
                         <p className="desc-title">Tools</p>
                         <p className="desc-content">
-                            Git, GitHub, Visual Studios Code, PSpice, AWS Deployment, Discord API, Google Spreadsheet API, 
-                            Google Maps API
+                            Git, GitHub, Visual Studios Code, AWS Deployment, Discord API, Google Spreadsheet API, 
+                            Google Maps API, PSpice
                         </p>
                     </div>
                     <div>
                         <p className="desc-title">Concepts</p>
-                        <p className="used-techs">Machine learning, Data science, ORM, MTV, MVC, Asynchronous programming</p>
+                        <p className="used-techs">
+                            RESTful API, Machine learning, Data science, ORM, MTV, MVC, Asynchronous programming
+                        </p>
                     </div>
                 </div>
             </div>
