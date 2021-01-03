@@ -20,11 +20,11 @@ const Technologies = () => {
                 <div className="lang-description">
                     <div>
                         <p className="desc-title">Languages</p>
-                        <p className="webframe"> HTML, CSS, JavaScript </p>
+                        <p className="webframe">HTML, CSS, JavaScript</p>
                     </div>
                     <div>
                         <p className="desc-title">Techs Utilized</p>
-                        <p className="used-techs">React, Bootstrap, </p>
+                        <p className="used-techs">React, Bootstrap, jQuery</p>
                     </div>
                 </div>
             </div>
@@ -36,12 +36,15 @@ const Technologies = () => {
                 <h1>Back-End</h1>
                 <div className="lang-description">
                     <div>
-                        <p className="desc-title">Framework</p>
-                        <p className="webframe">MERN Stack</p>
+                        <p className="desc-title">Languages</p>
+                        <p className="webframe">Python, JavaScript, Java</p>
                     </div>
                     <div>
                         <p className="desc-title">Techs Utilized</p>
-                        <p className="used-techs"></p>
+                        <p className="used-techs">
+                            Django, MongoDB, Express.js, Node.js, Socket.IO, Spring Boot, MySQL, NoSQL, 
+                            bcrypt, RESTful API, ORM, MVC, MTV
+                        </p>
                     </div>
                 </div>
             </div>
@@ -50,8 +53,11 @@ const Technologies = () => {
                 <h1>Related Skills</h1>
                 <div className="lang-description">
                     <div>
-                        <p className="desc-title">Framework</p>
-                        <p className="webframe">Spring Boot</p>
+                        <p className="desc-title">Libraries</p>
+                        <p className="webframe">
+                            scikit-learn, NumPy, Matplotlib, pandas, Discord.py, gspread, 
+                            
+                        </p>
                     </div>
                     <div>
                         <p className="desc-title">Techs Utilized</p>
