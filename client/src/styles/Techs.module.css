@@ -1,4 +1,31 @@
+.block {
+    width:auto;
+    height: 150px;
+    background-color: rgb(52,144,187);
+}
+
 .logo {
     width:100px;
     height:auto;
+}
+
+.descBlock {
+    margin: 10px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descInfo {
+    width: 350px;
+}
+
+img {
+    padding: 3px;
+}
+
+.langDescription {
+    width: 350px;
 }
