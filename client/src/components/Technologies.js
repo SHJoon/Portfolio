@@ -5,6 +5,7 @@ import react from '../images/react.png';
 import python from '../images/python.png';
 import javascript from '../images/js.png';
 import java from '../images/java.png';
+import styles from '../styles/Techs.module.css';
 
 const Technologies = () => {
 
@@ -13,9 +14,9 @@ const Technologies = () => {
             <p>Technologies</p>
             
             <div>
-                <img src={ html } alt="html" />
-                <img src={ css } alt="css" />
-                <img src={ react } alt="react" />
+                <img className={ styles.logo } src={ html } alt="html" />
+                <img className={ styles.logo } src={ css } alt="css" />
+                <img className={ styles.logo } src={ react } alt="react" />
                 <h1>Front-End</h1>
                 <div className="lang-description">
                     <div>
@@ -30,9 +31,9 @@ const Technologies = () => {
             </div>
 
             <div>
-                <img src={ python } alt="python" />
-                <img src={ javascript } alt="javascript" />
-                <img src={ java } alt="java" />
+                <img className={ styles.logo } src={ python } alt="python" />
+                <img className={ styles.logo } src={ javascript } alt="javascript" />
+                <img className={ styles.logo } src={ java } alt="java" />
                 <h1>Back-End</h1>
                 <div className="lang-description">
                     <div>

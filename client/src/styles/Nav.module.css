@@ -1,9 +1,18 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: aliceblue;
+    vertical-align: middle;
+}
+
 .logo {
     height: 100px;
     width: 100px;
-    display: inline-block;
+    display: block;
 }
 
 .links {
-    display: inline-block;
+    display: block;
+    float: right;
 }

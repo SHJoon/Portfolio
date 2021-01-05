@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
+import styles from '../styles/AboutMe.module.css';
 
 const AboutMe = () => {
     return(
-        <div>
+        <div className={ styles.intro }>
             {/* <img src="" /> Add my face here */}
             <p>Full-Stack Developer | Software Engineer</p>
             <p>Python | JavaScript | Java</p>
