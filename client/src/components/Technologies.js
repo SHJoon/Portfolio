@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import html from '../images/html.png';
+
+import html from '../images/html2.png';
 import css from '../images/css.png';
-import react from '../images/react.png';
+import react from '../images/react2.png';
 import python from '../images/python.png';
-import javascript from '../images/js.png';
+import javascript from '../images/js2.png';
 import java from '../images/java.png';
+import git from '../images/git.png';
+import aws from '../images/aws.png';
+import maps from '../images/maps.png';
+
 import styles from '../styles/Techs.module.css';
 
 const Technologies = () => {
@@ -31,10 +36,6 @@ const Technologies = () => {
             </div>
 
             <div>
-                <img className={ styles.logo } src={ python } alt="python" />
-                <img className={ styles.logo } src={ javascript } alt="javascript" />
-                <img className={ styles.logo } src={ java } alt="java" />
-                <h1>Back-End</h1>
                 <div className="lang-description">
                     <div>
                         <p className="desc-title">Languages</p>
@@ -48,9 +49,16 @@ const Technologies = () => {
                         </p>
                     </div>
                 </div>
+                <img className={ styles.logo } src={ python } alt="python" />
+                <img className={ styles.logo } src={ javascript } alt="javascript" />
+                <img className={ styles.logo } src={ java } alt="java" />
+                <h1>Back-End</h1>
             </div>
 
             <div>
+                <img className={ styles.logo } src={ git } alt="git" />
+                <img className={ styles.logo } src={ aws } alt="aws" />
+                <img className={ styles.logo } src={ maps } alt="maps" />
                 <h1>Other Skills</h1>
                 <div className="lang-description">
                     <div>
