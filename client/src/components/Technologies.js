@@ -21,9 +21,9 @@ const Technologies = () => {
             
             <div className={ styles.descBlock1 }>
                 <div className={ styles.descInfo }>
-                    <img className={ styles.logo } src={ html } alt="html" />
-                    <img className={ styles.logo } src={ css } alt="css" />
-                    <img className={ styles.logo } src={ react } alt="react" />
+                    <img className={ styles.logos } src={ html } alt="html" />
+                    <img className={ styles.logos } src={ css } alt="css" />
+                    <img className={ styles.logos } src={ react } alt="react" />
                     <h1>Front-End</h1>
                 </div>
                 <div className={ styles.langDescription }>
@@ -53,18 +53,18 @@ const Technologies = () => {
                     </div>
                 </div>
                 <div className={ styles.descInfo }>
-                    <img className={ styles.logo } src={ python } alt="python" />
-                    <img className={ styles.logo } src={ javascript } alt="javascript" />
-                    <img className={ styles.logo } src={ java } alt="java" />
+                    <img className={ styles.logos } src={ python } alt="python" />
+                    <img className={ styles.logos } src={ javascript } alt="javascript" />
+                    <img className={ styles.logos } src={ java } alt="java" />
                     <h1>Back-End</h1>
                 </div>
             </div>
             
             <div className={ styles.descBlock3 }>
                 <div className={ styles.descInfo }>
-                    <img className={ styles.logo } src={ git } alt="git" />
-                    <img className={ styles.logo } src={ aws } alt="aws" />
-                    <img className={ styles.logo } src={ maps } alt="maps" />
+                    <img className={ styles.logos } src={ git } alt="git" />
+                    <img className={ styles.logos } src={ aws } alt="aws" />
+                    <img className={ styles.logos } src={ maps } alt="maps" />
                     <h1>Other Skills</h1>
                 </div>
                 <div className={ styles.langDescription }>

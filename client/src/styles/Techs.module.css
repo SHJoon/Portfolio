@@ -5,9 +5,10 @@
     background-color: rgb(52,170,210);
 }
 
-.logo {
+.logos {
     width:100px;
     height:auto;
+    padding: 8px 20px;
 }
 
 
@@ -42,14 +43,6 @@
     width: 350px;
 }
 
-img {
-    padding: 8px 20px;
-}
-
 .langDescription {
     width: 350px;
-}
-
-h1 {
-    /* text-decoration: underline; */
 }
