@@ -19,7 +19,7 @@ const Technologies = () => {
             <div className={ styles.block }></div>
             <h1>Technologies</h1>
             
-            <div className={ styles.descBlock }>
+            <div className={ styles.descBlock1 }>
                 <div className={ styles.descInfo }>
                     <img className={ styles.logo } src={ html } alt="html" />
                     <img className={ styles.logo } src={ css } alt="css" />
@@ -28,24 +28,24 @@ const Technologies = () => {
                 </div>
                 <div className={ styles.langDescription }>
                     <div>
-                        <p className={ styles.descTitle }>Languages</p>
+                        <h3 className={ styles.descTitle }>Languages</h3>
                         <p className={ styles.descContent }>HTML, CSS, JavaScript</p>
                     </div>
                     <div>
-                        <p className={ styles.descTitle }>Techs Utilized</p>
+                        <h3 className={ styles.descTitle }>Techs Utilized</h3>
                         <p className={ styles.usedTechs }>React, Bootstrap, jQuery</p>
                     </div>
                 </div>
             </div>
-
-            <div className={ styles.descBlock }>
+        
+            <div className={ styles.descBlock2 }>
                 <div className={ styles.langDescription }>
                     <div>
-                        <p className={ styles.descTitle }>Languages</p>
+                        <h3 className={ styles.descTitle }>Languages</h3>
                         <p className={ styles.descContent }>Python, JavaScript, Java</p>
                     </div>
                     <div>
-                        <p className={ styles.descTitle }>Techs Utilized</p>
+                        <h3 className={ styles.descTitle }>Techs Utilized</h3>
                         <p className={ styles.usedTechs }>
                             Django, MongoDB, Express.js, Node.js, Socket.IO, Spring Boot, MySQL, NoSQL, 
                             bcrypt, Regex
@@ -60,7 +60,7 @@ const Technologies = () => {
                 </div>
             </div>
             
-            <div className={ styles.descBlock }>
+            <div className={ styles.descBlock3 }>
                 <div className={ styles.descInfo }>
                     <img className={ styles.logo } src={ git } alt="git" />
                     <img className={ styles.logo } src={ aws } alt="aws" />
@@ -69,14 +69,14 @@ const Technologies = () => {
                 </div>
                 <div className={ styles.langDescription }>
                     <div>
-                        <p className={ styles.descTitle }>Tools</p>
+                        <h3 className={ styles.descTitle }>Tools</h3>
                         <p className={ styles.descContent }>
                             Git, GitHub, Visual Studios Code, AWS Deployment, Discord API, Google Spreadsheet API, 
                             Google Maps API, PSpice
                         </p>
                     </div>
                     <div>
-                        <p className={ styles.descTitle }>Concepts</p>
+                        <h3 className={ styles.descTitle }>Concepts</h3>
                         <p className={ styles.usedTechs }>
                             RESTful API, Machine learning, Data science, ORM, MTV, MVC, Asynchronous programming
                         </p>

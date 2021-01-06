@@ -1,7 +1,8 @@
 .block {
+    margin-top: 22px;
     width:auto;
     height: 150px;
-    background-color: rgb(52,144,187);
+    background-color: rgb(52,170,210);
 }
 
 .logo {
@@ -9,13 +10,32 @@
     height:auto;
 }
 
-.descBlock {
-    margin: 10px;
-    padding: 5px;
-    /* border: 1px solid black; */
+
+.descBlock1 {
+    padding: 10px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: aliceblue;
+}
+
+.descBlock2 {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.descBlock3 {
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: wheat;
 }
 
 .descInfo {
