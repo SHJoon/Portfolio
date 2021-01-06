@@ -49,3 +49,7 @@ img {
 .langDescription {
     width: 350px;
 }
+
+h1 {
+    /* text-decoration: underline; */
+}
