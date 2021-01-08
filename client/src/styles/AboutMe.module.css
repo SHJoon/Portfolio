@@ -1,11 +1,13 @@
 .intro {
-    margin-top:120px;
+    /* margin-top:120px; */
+    margin-top: 20px;
 }
 
 .pic {
+    width: 225px;
     border-radius: 50%;
     border: 1px solid black;
-    margin-bottom: 5px;
+    margin: 10px auto;
 }
 
 .header {

@@ -17,9 +17,9 @@ const Technologies = () => {
     return(
         <div>
             <div className={ styles.block }></div>
-            <h1>Technologies</h1>
+            <h1 className={ styles.techTitle }>Technologies</h1>
             
-            <div className={ styles.descBlock1 }>
+            <div className={ `${styles.descBlock} ${styles.descBlock1}` }>
                 <div className={ styles.descInfo }>
                     <img className={ styles.logos } src={ html } alt="html" />
                     <img className={ styles.logos } src={ css } alt="css" />
@@ -38,7 +38,7 @@ const Technologies = () => {
                 </div>
             </div>
         
-            <div className={ styles.descBlock2 }>
+            <div className={ `${styles.descBlock} ${styles.descBlock2}` }>
                 <div className={ styles.langDescription }>
                     <div>
                         <h3 className={ styles.descTitle }>Languages</h3>
@@ -60,7 +60,7 @@ const Technologies = () => {
                 </div>
             </div>
             
-            <div className={ styles.descBlock3 }>
+            <div className={ `${styles.descBlock} ${styles.descBlock3}` }>
                 <div className={ styles.descInfo }>
                     <img className={ styles.logos } src={ git } alt="git" />
                     <img className={ styles.logos } src={ aws } alt="aws" />

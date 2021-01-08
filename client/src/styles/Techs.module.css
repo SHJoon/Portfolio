@@ -5,37 +5,33 @@
     background-color: rgb(52,170,210);
 }
 
+.techTitle {
+    padding: 10px;
+}
+
 .logos {
     width:100px;
     height:auto;
     padding: 8px 20px;
 }
 
-
-.descBlock1 {
-    padding: 10px;
+.descBlock {
+    padding: 25px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.descBlock1 {
     background-color: aliceblue;
 }
 
 .descBlock2 {
-    padding: 10px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: beige;
 }
 
 .descBlock3 {
-    padding: 10px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: wheat;
 }
 
