@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 
-import html from '../images/html2.png';
+import html from '../images/html.png';
 import css from '../images/css.png';
-import react from '../images/react2.png';
+import react from '../images/react.png';
 import python from '../images/python.png';
-import javascript from '../images/js2.png';
+import javascript from '../images/js.png';
 import java from '../images/java.png';
 import git from '../images/git.png';
 import aws from '../images/aws.png';
