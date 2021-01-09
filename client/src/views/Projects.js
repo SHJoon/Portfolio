@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+
+// Import styling
 import styles from '../styles/Projects.module.css'
 
 const Projects = (props) => {

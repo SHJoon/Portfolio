@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
+// Import image
 import profile from '../images/profile.jpg';
 
+// Import styling
 import styles from '../styles/AboutMe.module.css';
 
 const AboutMe = () => {

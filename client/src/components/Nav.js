@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { Link, navigate } from '@reach/router';
+
+// Import image
 import logo from '../images/logo.png';
+
+// Import styling
 import styles from '../styles/Nav.module.css';
 
 const Nav = () => {

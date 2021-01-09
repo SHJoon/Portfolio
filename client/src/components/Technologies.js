@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+// Import images
 import html from '../images/html.png';
 import css from '../images/css.png';
 import react from '../images/react.png';
@@ -10,6 +11,7 @@ import git from '../images/git.png';
 import aws from '../images/aws.png';
 import maps from '../images/maps.png';
 
+// Import styling
 import styles from '../styles/Techs.module.css';
 
 const Technologies = () => {
