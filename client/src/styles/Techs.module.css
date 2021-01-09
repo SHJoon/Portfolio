@@ -1,7 +1,7 @@
 .block {
     margin-top: 22px;
     width:auto;
-    height: 25px;
+    height: 100px;
     background-color: rgb(52,170,210);
 }
 
@@ -35,10 +35,7 @@
     background-color: wheat;
 }
 
-.descInfo {
+.descInfo{
     width: 350px;
-}
-
-.langDescription {
-    width: 350px;
+    margin: 0 50px;
 }

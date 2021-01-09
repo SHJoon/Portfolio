@@ -26,7 +26,7 @@ const Technologies = () => {
                     <img className={ styles.logos } src={ react } alt="react" />
                     <h1>Front-End</h1>
                 </div>
-                <div className={ styles.langDescription }>
+                <div className={ styles.descInfo }>
                     <div>
                         <h3 className={ styles.descTitle }>Languages</h3>
                         <p className={ styles.descContent }>HTML, CSS, JavaScript</p>
@@ -39,7 +39,7 @@ const Technologies = () => {
             </div>
         
             <div className={ `${styles.descBlock} ${styles.descBlock2}` }>
-                <div className={ styles.langDescription }>
+                <div className={ styles.descInfo }>
                     <div>
                         <h3 className={ styles.descTitle }>Languages</h3>
                         <p className={ styles.descContent }>Python, JavaScript, Java</p>
@@ -67,7 +67,7 @@ const Technologies = () => {
                     <img className={ styles.logos } src={ maps } alt="maps" />
                     <h1>Other Skills</h1>
                 </div>
-                <div className={ styles.langDescription }>
+                <div className={ styles.descInfo }>
                     <div>
                         <h3 className={ styles.descTitle }>Tools</h3>
                         <p className={ styles.descContent }>
