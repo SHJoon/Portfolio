@@ -7,7 +7,7 @@ import Resume from './views/Resume';
 import Projects from './views/Projects';
 
 function App() {
-  const [ projects, setProjects ] = useState([{
+  const projects = [{
     "title": "EasyShop",
     "language": "Python",
     "framework": "Django",
@@ -42,12 +42,13 @@ function App() {
     "description": `A network intrusion detection project in which different 
     machine learning algorithms with different optimizations are employed to 
     detect anomaly vs normal network signal.`
-  }]);
+  }];
+
   return (
     <div className="App">
       <Nav className="nav" />
       <Router>
-        <Main path="/" />
+        <Main path="/" projects={ projects } />
         <Resume path="/resume" />
         <Projects path="/projects/:id" projects={ projects } />
       </Router>
