@@ -9,8 +9,9 @@ const Projects = (props) => {
         <div>
             <div className={ styles.block }></div>
             <h1>{ props.projects[props.id].title }</h1>
-
-            
+            <p>Language: { props.projects[props.id].language }</p>
+            <p>Framework used: { props.projects[props.id].framework }</p>
+            <p>{ props.projects[props.id].description }</p>
         </div>
     )
 }

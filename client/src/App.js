@@ -14,6 +14,7 @@ import discordpy from './images/discordpy.png';
 import machinelearning from './images/machinelearning.png'
 
 function App() {
+
   const projects = [{
     "title": "EasyShop",
     "language": "Python",
@@ -56,10 +57,14 @@ function App() {
     "img": machinelearning
   }];
 
+  useEffect(() => {
+    window.scrollTo(0,0);
+  }, [])
+
   return (
     <div className="App">
       <Nav className="nav" />
-      <Router>
+      <Router primary={false}>
         <Main path="/" projects={ projects } />
         <Resume path="/resume" />
         <Projects path="/projects/:id" projects={ projects } />
