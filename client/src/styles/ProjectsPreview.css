@@ -1,4 +1,46 @@
+.preview {
+    position: relative;
+    text-align: center;
+}
+
 .projectImg {
     width: 200px;
     height: 200px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+}
+
+.preview:hover .overlay {
+    visibility: visible;
+    opacity:0.5;
+    z-index: 1;
+    display: block;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .5s, visibility .5s;
+    color: white;
+    z-index: 2;
+    font-size: 30px;
+}
+
+.preview:hover .centered {
+    visibility: visible;
+    opacity: 1;
 }

@@ -14,8 +14,8 @@ const Main = (props) => {
             <h1 className="my-3">Projects</h1>
             <div className="row col-sm-12 project">
             {
-                props.projects.map((project) => {
-                    return(<ProjectsPreview className="eachProject" project={ project }/>)
+                props.projects.map((project, i) => {
+                    return(<ProjectsPreview className="eachProject" idx={i} project={ project }/>)
                 })
             }
             </div>
