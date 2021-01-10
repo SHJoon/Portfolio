@@ -1,10 +1,13 @@
 import React from 'react';
 
-const ProjectsPreview = () => {
+import '../styles/ProjectsPreview.css';
+
+const ProjectsPreview = (props) => {
 
     return(
-        <div>
-
+        <div className="mx-4 mb-4">
+            <img className="projectImg" src={props.project.img} />
+            <p>{ props.project.title }</p>
         </div>
     )
 }
