@@ -8,7 +8,7 @@ import Projects from './views/Projects';
 
 // import images
 import easyshop from './images/easyshoplogo.png';
-import waqi from './images/waqi.png';
+import aqi from './images/air.jpg';
 import meet from './images/meetup.png';
 import discordpy from './images/discordpy.png';
 import machinelearning from './images/machinelearning.png'
@@ -30,7 +30,7 @@ function App() {
     implementation of Google Maps API and World Air Quality Index API. 
     Users can view the air quality index of every available US stations 
     with highly intuitive interface.`,
-    "img": waqi
+    "img": aqi
   }, {
     "title": "Let's Meet",
     "language": "Java",

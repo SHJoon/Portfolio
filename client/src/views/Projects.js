@@ -8,7 +8,7 @@ const Projects = (props) => {
     return(
         <div>
             <div className={ styles.block }></div>
-            <h1>Projects</h1>
+            <h1>{ props.projects[props.id].title }</h1>
 
             
         </div>
