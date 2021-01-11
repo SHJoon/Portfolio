@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Carousel } from 'react-bootstrap/Carousel';
 
 // Import styling
 import styles from '../styles/Projects.module.css'
