@@ -22,7 +22,7 @@ function App() {
     "description": `An e-commerce website featuring 
     secure user login/registration using bcrypt, shopping cart per user, 
     review system, and more.`,
-    "img": easyshop
+    "prevImg": easyshop
   }, {
     "title": "AQI-Maps",
     "language": "JavaScript",
@@ -31,7 +31,7 @@ function App() {
     implementation of Google Maps API and World Air Quality Index API. 
     Users can view the air quality index of every available US stations 
     with highly intuitive interface.`,
-    "img": aqi
+    "prevImg": aqi
   }, {
     "title": "Let's Meet",
     "language": "Java",
@@ -39,7 +39,7 @@ function App() {
     "description": `A group meetup website where users can organize events
     across different locations that allows people with common interest to 
     socialize and come together.`,
-    "img": meet
+    "prevImg": meet
   }, {
     "title": "InHouseBot",
     "language": "Python",
@@ -47,14 +47,14 @@ function App() {
     utilies, such as queue system in which hundreds of users can organize events, 
     currency/rating system to automatically keep track of players' performance, 
     and many more.`,
-    "img": discordpy
+    "prevImg": discordpy
   }, {
     "title": "Network Intrusion Detection",
     "language": "Python",
     "description": `A network intrusion detection project in which different 
     machine learning algorithms with different optimizations are employed to 
     detect anomaly vs normal network signal.`,
-    "img": machinelearning
+    "prevImg": machinelearning
   }];
 
   useEffect(() => {

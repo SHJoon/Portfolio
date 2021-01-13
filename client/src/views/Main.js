@@ -19,6 +19,7 @@ const Main = (props) => {
                 })
             }
             </div>
+            <div style={{backgroundColor: "green", width: "auto", height: "500px"}}></div>
         </div>
     )
 }

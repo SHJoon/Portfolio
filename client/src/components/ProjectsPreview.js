@@ -8,7 +8,7 @@ const ProjectsPreview = (props) => {
     return(
         <div className="mx-4 mb-4 preview">
             <Link to={`/projects/${props.idx}`}>
-                <img className="projectImg" src={props.project.img} />
+                <img className="projectImg" src={props.project.prevImg} />
                 <div className="overlay"></div>
                 <div className="centered">{ props.project.title }</div>
             </Link>
