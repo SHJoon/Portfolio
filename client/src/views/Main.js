@@ -7,6 +7,12 @@ import '../styles/Main.css';
 
 const Main = (props) => {
 
+    const [ projectIdx, setProjectIdx ] = useState(-1);
+
+    const handleClick = (i) => {
+        setProjectIdx(i);
+    }
+    
     return(
         <div>
             <AboutMe />
@@ -15,7 +21,7 @@ const Main = (props) => {
             <div className="row col-sm-12 project">
             {
                 props.projects.map((project, i) => {
-                    return(<ProjectsPreview className="eachProject" idx={i} project={ project }/>)
+                    return(<ProjectsPreview onClick={handleClick(i)} className="eachProject" idx={i} project={ project }/>)
                 })
             }
             </div>
