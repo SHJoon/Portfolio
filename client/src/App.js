@@ -95,10 +95,6 @@ function App() {
     "images": [nids1, nids2, nids3, nids4, nids5]
   }];
 
-  useEffect(() => {
-    window.scrollTo(0,0);
-  }, [])
-
   return (
     <div className="App">
       <Nav className="nav" />

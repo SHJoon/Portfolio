@@ -5,14 +5,17 @@ import '../styles/ProjectsPreview.css';
 
 const ProjectsPreview = (props) => {
 
+    const handleClick = (e, i) => {
+        console.log("here");
+        props.setProjectIdx(i);
+    }
+
     return(
-        <div className="mx-4 mb-4 preview">
-            <Link to={`/projects/${props.idx}`}>
-                <img className="projectImg" src={props.project.prevImg} />
-                <div className="overlay"></div>
-                <div className="centered">{ props.project.title }</div>
-            </Link>
-        </div>
+        <button onClick={e => handleClick(e, props.idx)} className="mx-4 mb-4 preview">
+            <img className="projectImg" src={props.project.prevImg} />
+            <div className="overlay"></div>
+            <div className="centered">{ props.project.title }</div>
+        </button>
     )
 }
 
