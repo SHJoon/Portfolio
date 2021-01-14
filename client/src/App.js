@@ -52,7 +52,8 @@ function App() {
     review system, and more.`,
     "prevImg": easyshop,
     "github": "https://github.com/SHJoon/EasyShop",
-    "images": [easyshop1, easyshop2, easyshop3, easyshop4, easyshop5]
+    "images": [easyshop1, easyshop2, easyshop3, easyshop4, easyshop5],
+    "id": "easy"
   }, {
     "title": "AQI-Maps",
     "language": "JavaScript",
@@ -63,7 +64,8 @@ function App() {
     with highly intuitive interface.`,
     "prevImg": aqi,
     "github": "https://github.com/SHJoon/AQI-Maps",
-    "images": [aqi1, aqi2, aqi3, aqi4]
+    "images": [aqi1, aqi2, aqi3, aqi4],
+    "id": "aqi"
   }, {
     "title": "Let's Meet",
     "language": "Java",
@@ -73,7 +75,8 @@ function App() {
     socialize and come together.`,
     "prevImg": meet,
     "github": "https://github.com/trinhgliedt/Let_s_Meet_Java_Project",
-    "images": [meet1, meet2, meet3, meet4, meet5]
+    "images": [meet1, meet2, meet3, meet4, meet5],
+    "id": "meet"
   }, {
     "title": "InHouseBot",
     "language": "Python",
@@ -83,7 +86,8 @@ function App() {
     and many more.`,
     "prevImg": discordpy,
     "github": "https://github.com/SHJoon/ChongBot/tree/clean",
-    "images": [discord1, discord2, discord3, discord4]
+    "images": [discord1, discord2, discord3, discord4],
+    "id": "inhouse"
   }, {
     "title": "Network Intrusion Detection",
     "language": "Python",
@@ -92,7 +96,8 @@ function App() {
     detect anomaly vs normal network signal.`,
     "prevImg": machinelearning,
     "github": "https://github.com/SHJoon/Network_Intrusion_Detection",
-    "images": [nids1, nids2, nids3, nids4, nids5]
+    "images": [nids1, nids2, nids3, nids4, nids5],
+    "id": "nids"
   }];
 
   return (
@@ -101,7 +106,7 @@ function App() {
       <Router primary={false}>
         <Main path="/" projects={ projects } />
         <Resume path="/resume" />
-        <Projects path="/projects/:id" projects={ projects } />
+        {/* <Projects path="/projects/:id" projects={ projects } /> */}
       </Router>
     </div>
   );

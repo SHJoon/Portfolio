@@ -2,12 +2,13 @@ import React, { useState, useEffect } from 'react';
 import AboutMe from '../components/AboutMe';
 import Technologies from '../components/Technologies';
 import ProjectsPreview from '../components/ProjectsPreview';
+import Projects from '../components/Projects.js';
 
 import '../styles/Main.css';
 
 const Main = (props) => {
 
-    const [ projectIdx, setProjectIdx ] = useState(-1);
+    const [ projectId, setProjectId ] = useState("");
 
     return(
         <div>
@@ -17,7 +18,7 @@ const Main = (props) => {
             <div className="row col-sm-12 project">
             {
                 props.projects.map((project, i) => {
-                    return(<ProjectsPreview setProjectIdx={ setProjectIdx } className="eachProject" idx={i} project={ project }/>)
+                    return(<ProjectsPreview className="eachProject" setProjectId={ setProjectId } idx={i} project={ project }/>)
                 })
             }
             </div>
