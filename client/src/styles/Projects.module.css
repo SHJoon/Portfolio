@@ -1,5 +1,10 @@
-.block {
-    width:auto;
-    /* height: 150px; */
-    background-color: rgb(52,144,187);
+.selected {
+    width: 100%;
+}
+
+.selectedPics {
+    width: 100%;
+    height: auto;
+    max-width:1200px;
+    margin: auto 0;
 }

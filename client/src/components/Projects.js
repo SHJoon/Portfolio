@@ -9,13 +9,13 @@ import styles from '../styles/Projects.module.css'
 const Projects = (props) => {
 
     return(
-        <div>
+        <div className={styles.selected}>
             {
                 props.projectId !== -1 ?
-                <Carousel showArrows={ true }>
+                <Carousel showArrows={ true } className={styles.selectedPics}>
                 {
                     props.projects[props.projectId].images.map((image, i) => {
-                        return(<div key={i}><img src={image} /></div>);
+                        return(<div key={i}><img src={image} alt={props.projects[props.projectId].title}/></div>);
                     })
                 }
                 </Carousel>
