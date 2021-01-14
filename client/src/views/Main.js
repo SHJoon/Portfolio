@@ -8,7 +8,7 @@ import '../styles/Main.css';
 
 const Main = (props) => {
 
-    const [ projectId, setProjectId ] = useState("");
+    const [ projectId, setProjectId ] = useState(-1);
 
     return(
         <div>
@@ -18,12 +18,18 @@ const Main = (props) => {
             <div className="row col-sm-12 project">
             {
                 props.projects.map((project, i) => {
-                    return(<ProjectsPreview className="eachProject" setProjectId={ setProjectId } idx={i} project={ project }/>)
+                    return(<ProjectsPreview
+                        className="eachProject"
+                        setProjectId={ setProjectId }
+                        key={i}
+                        project={ project }
+                        idx={i}
+                        />)
                 })
             }
             </div>
-            <div style={{backgroundColor: "green", width: "auto", height: "200px"}}></div>
             <Projects projects={ props.projects } projectId={ projectId } />
+            <div style={{width: "auto", height: "200px"}}></div>
         </div>
     )
 }

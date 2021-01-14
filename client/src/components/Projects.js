@@ -10,60 +10,17 @@ const Projects = (props) => {
 
     return(
         <div>
-        {
-            props.projectId === "easy" &&
-            <Carousel showArrows={ true }>
             {
-                props.projects[0].images.map((image) => {
-                    return(<div><img src={image} /></div>);
-                })
+                props.projectId !== -1 ?
+                <Carousel showArrows={ true }>
+                {
+                    props.projects[props.projectId].images.map((image, i) => {
+                        return(<div key={i}><img src={image} /></div>);
+                    })
+                }
+                </Carousel>
+                : <div></div>
             }
-            </Carousel>
-        }
-
-        {
-            props.projectId === "aqi" &&
-            <Carousel showArrows={ true }>
-            {
-                props.projects[1].images.map((image) => {
-                    return(<div><img src={image} /></div>);
-                })
-            }
-            </Carousel>
-        }
-
-        {
-            props.projectId === "meet" &&
-            <Carousel showArrows={ true }>
-            {
-                props.projects[2].images.map((image) => {
-                    return(<div><img src={image} /></div>);
-                })
-            }
-            </Carousel>
-        }
-
-        {
-            props.projectId === "inhouse" &&
-            <Carousel showArrows={ true }>
-            {
-                props.projects[3].images.map((image) => {
-                    return(<div><img src={image} /></div>);
-                })
-            }
-            </Carousel>
-        }
-
-        {
-            props.projectId === "nids" &&
-            <Carousel showArrows={ true }>
-            {
-                props.projects[4].images.map((image) => {
-                    return(<div><img src={image} /></div>);
-                })
-            }
-            </Carousel>
-        }
         </div>
     )
 }
