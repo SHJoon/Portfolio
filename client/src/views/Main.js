@@ -9,6 +9,7 @@ import '../styles/Main.css';
 const Main = (props) => {
 
     const [ projectId, setProjectId ] = useState(-1);
+    const [ projectSelected, setProjectSelected ] = useState(0);
 
     return(
         <div>
@@ -21,6 +22,7 @@ const Main = (props) => {
                     return(<ProjectsPreview
                         className="eachProject"
                         setProjectId={ setProjectId }
+                        setProjectSelected={ setProjectSelected }
                         key={i}
                         project={ project }
                         idx={i}
@@ -28,7 +30,7 @@ const Main = (props) => {
                 })
             }
             </div>
-            <Projects projects={ props.projects } projectId={ projectId } />
+            <Projects projects={ props.projects } projectId={ projectId } projectSelected={ projectSelected }/>
             <div style={{width: "auto", height: "200px"}}></div>
         </div>
     )

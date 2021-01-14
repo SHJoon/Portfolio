@@ -7,6 +7,7 @@ const ProjectsPreview = (props) => {
 
     const handleClick = (e, id) => {
         props.setProjectId(id);
+        props.setProjectSelected(0);
     }
 
     return(
