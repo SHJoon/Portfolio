@@ -1,15 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&display=swap');
+
 .intro {
-    /* margin-top:120px; */
-    margin-top: 20px;
+    margin-top: 100px;
+}
+
+.introLang {
+    margin-bottom: 50px;
+    font-weight: 300;
 }
 
 .pic {
-    width: 225px;
+    width: 250px;
     border-radius: 50%;
     border: 1px solid black;
-    margin: 10px auto;
+    margin: 10px auto 100px;
 }
 
 .header {
     font-weight: bold;
+}
+
+.block {
+    margin-top: 22px;
+    margin-bottom: 100px;
+    width:auto;
+    height: auto;
+    min-height: 100px;
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgb(52,170,210);
+}
+
+.selfIntro1 {
+    color:white;
+    margin: 0 auto 30px;
+    padding: 0 10px;
+    max-width: fit-content;
+    font-weight: bold;
+}
+
+.selfIntro2 {
+    color:white;
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 700px;
+    font-size: 18px;
+    font-weight: 300;
 }

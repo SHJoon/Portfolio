@@ -1,12 +1,10 @@
-.block {
-    margin-top: 22px;
-    width:auto;
-    height: 100px;
-    background-color: rgb(52,170,210);
-}
-
 .techTitle {
     padding: 10px;
+}
+
+.techIntro {
+    margin-bottom: 50px;
+    font-size: 20px;
 }
 
 .logos {
@@ -16,7 +14,7 @@
 }
 
 .descBlock {
-    padding: 25px;
+    padding: 80px 25px;
     margin: auto;
     display: flex;
     align-items: center;

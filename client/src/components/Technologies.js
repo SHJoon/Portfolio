@@ -18,8 +18,8 @@ const Technologies = () => {
 
     return(
         <div>
-            <div className={ styles.block }></div>
             <h1 className={ styles.techTitle }>Technologies</h1>
+            <p className={ styles.techIntro }>Stuff I know and love to use</p>
             
             <div className={ `${styles.descBlock} ${styles.descBlock1}` }>
                 <div className={ styles.descInfo }>

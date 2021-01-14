@@ -31,7 +31,7 @@ const Main = (props) => {
             }
             </div>
             <Projects projects={ props.projects } projectId={ projectId } projectSelected={ projectSelected }/>
-            <div style={{width: "auto", height: "200px"}}></div>
+            {/* <div style={{width: "auto", height: "200px"}}></div> */}
         </div>
     )
 }
