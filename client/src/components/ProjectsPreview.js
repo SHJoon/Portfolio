@@ -6,7 +6,7 @@ import '../styles/ProjectsPreview.css';
 const ProjectsPreview = (props) => {
 
     const handleClick = (e, id) => {
-        props.setProjectIdx(id);
+        props.setProjectId(id);
     }
 
     return(

@@ -4,7 +4,6 @@ import { Router, Link } from '@reach/router';
 import Nav from './components/Nav';
 import Main from './views/Main';
 import Resume from './views/Resume';
-import Projects from './views/Projects';
 
 // import images
 import easyshop from './images/easyshoplogo.png';

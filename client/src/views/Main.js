@@ -22,7 +22,8 @@ const Main = (props) => {
                 })
             }
             </div>
-            <div style={{backgroundColor: "green", width: "auto", height: "500px"}}></div>
+            <div style={{backgroundColor: "green", width: "auto", height: "200px"}}></div>
+            <Projects projects={ props.projects } projectId={ projectId } />
         </div>
     )
 }
