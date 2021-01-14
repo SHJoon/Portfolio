@@ -18,7 +18,7 @@ const Technologies = () => {
 
     return(
         <div>
-            <h1 className={ styles.techTitle }>Technologies</h1>
+            <p className={ styles.techTitle }>Technologies</p>
             <p className={ styles.techIntro }>Stuff I know and love to use</p>
             
             <div className={ `${styles.descBlock} ${styles.descBlock1}` }>
@@ -26,29 +26,30 @@ const Technologies = () => {
                     <img className={ styles.logos } src={ html } alt="html" />
                     <img className={ styles.logos } src={ css } alt="css" />
                     <img className={ styles.logos } src={ react } alt="react" />
-                    <h1>Front-End</h1>
                 </div>
                 <div className={ styles.descInfo }>
+                    <h1>Front-End</h1>
                     <div>
                         <h3 className={ styles.descTitle }>Languages</h3>
                         <p className={ styles.descContent }>HTML, CSS, JavaScript</p>
                     </div>
                     <div>
                         <h3 className={ styles.descTitle }>Techs Utilized</h3>
-                        <p className={ styles.usedTechs }>React, Bootstrap, jQuery</p>
+                        <p className={ styles.descContent }>React, Bootstrap, jQuery</p>
                     </div>
                 </div>
             </div>
-        
+            
             <div className={ `${styles.descBlock} ${styles.descBlock2}` }>
                 <div className={ styles.descInfo }>
+                    <h1>Back-End</h1>
                     <div>
                         <h3 className={ styles.descTitle }>Languages</h3>
                         <p className={ styles.descContent }>Python, JavaScript, Java</p>
                     </div>
                     <div>
                         <h3 className={ styles.descTitle }>Techs Utilized</h3>
-                        <p className={ styles.usedTechs }>
+                        <p className={ styles.descContent }>
                             Django, MongoDB, Express.js, Node.js, Socket.IO, Spring Boot, MySQL, NoSQL, 
                             bcrypt, Regex
                         </p>
@@ -58,7 +59,6 @@ const Technologies = () => {
                     <img className={ styles.logos } src={ python } alt="python" />
                     <img className={ styles.logos } src={ javascript } alt="javascript" />
                     <img className={ styles.logos } src={ java } alt="java" />
-                    <h1>Back-End</h1>
                 </div>
             </div>
             
@@ -67,9 +67,9 @@ const Technologies = () => {
                     <img className={ styles.logos } src={ git } alt="git" />
                     <img className={ styles.logos } src={ aws } alt="aws" />
                     <img className={ styles.logos } src={ maps } alt="maps" />
-                    <h1>Other Skills</h1>
                 </div>
                 <div className={ styles.descInfo }>
+                    <h1>Other Skills</h1>
                     <div>
                         <h3 className={ styles.descTitle }>Tools</h3>
                         <p className={ styles.descContent }>
@@ -79,7 +79,7 @@ const Technologies = () => {
                     </div>
                     <div>
                         <h3 className={ styles.descTitle }>Concepts</h3>
-                        <p className={ styles.usedTechs }>
+                        <p className={ styles.descContent }>
                             RESTful API, Machine learning, Data science, ORM, MTV, MVC, Asynchronous programming
                         </p>
                     </div>

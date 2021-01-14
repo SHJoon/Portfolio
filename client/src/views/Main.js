@@ -15,7 +15,8 @@ const Main = (props) => {
         <div>
             <AboutMe />
             <Technologies />
-            <h1 className="my-3">Projects</h1>
+            <h1 className="projectTitle">Projects</h1>
+            <p className="projectIntro">Cool programs I've worked on</p>
             <div className="row col-sm-12 project">
             {
                 props.projects.map((project, i) => {
@@ -31,7 +32,6 @@ const Main = (props) => {
             }
             </div>
             <Projects projects={ props.projects } projectId={ projectId } projectSelected={ projectSelected }/>
-            {/* <div style={{width: "auto", height: "200px"}}></div> */}
         </div>
     )
 }

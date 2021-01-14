@@ -1,16 +1,15 @@
 .techTitle {
-    padding: 10px;
+    padding: 0px;
+    margin-top: 225px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .techIntro {
     margin-bottom: 50px;
     font-size: 20px;
-}
-
-.logos {
-    width:100px;
-    height:auto;
-    padding: 8px 20px;
+    font-weight: 300;
 }
 
 .descBlock {
@@ -34,6 +33,23 @@
 }
 
 .descInfo{
-    width: 350px;
+    width: 500px;
     margin: 20px 40px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.logos {
+    width:140px;
+    height:auto;
+    margin: 0px 10px;
+    padding: 8px 20px;
+}
+
+.descContent {
+    font-weight: 200;
+    font-size: 20px;
 }

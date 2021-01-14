@@ -34,6 +34,19 @@
     .col-12 {width: 100%;}
   }
 
+.projectTitle {
+    padding: 0px;
+    margin-top: 225px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.projectIntro {
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .project {
     width: 100%;
     align-items: center;
