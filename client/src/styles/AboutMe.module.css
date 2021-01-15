@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .intro {
-    padding-top: 100px;
+    padding-top: 175px;
     background-image: url("../images/introBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@
     width: 250px;
     border-radius: 50%;
     border: 1px solid black;
-    margin: 10px auto 300px;
+    margin: 10px auto 225px;
 }
 
 .block {
@@ -40,6 +40,7 @@
     padding: 0 10px;
     margin: 0 auto 10px;
     font-weight: bold;
+    font-size: 50px;
 }
 
 .selfIntro2 {
@@ -56,5 +57,5 @@
     padding: 0 10px;
     max-width: 700px;
     font-size: 18px;
-    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
