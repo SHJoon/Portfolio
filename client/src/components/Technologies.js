@@ -21,7 +21,7 @@ const Technologies = () => {
             <p className={ styles.techTitle }>Technologies</p>
             <p className={ styles.techIntro }>Stuff I know and love to use</p>
             
-            <div className={ `${styles.descBlock} ${styles.descBlock1}` }>
+            <div className={ styles.descBlock }>
                 <div className={ styles.descInfo }>
                     <img className={ styles.logos } src={ html } alt="html" />
                     <img className={ styles.logos } src={ css } alt="css" />
@@ -40,7 +40,7 @@ const Technologies = () => {
                 </div>
             </div>
             
-            <div className={ `${styles.descBlock} ${styles.descBlock2}` }>
+            <div className={ styles.descBlock }>
                 <div className={ styles.descInfo }>
                     <h1>Back-End</h1>
                     <div>
@@ -62,7 +62,7 @@ const Technologies = () => {
                 </div>
             </div>
             
-            <div className={ `${styles.descBlock} ${styles.descBlock3}` }>
+            <div className={ styles.descBlock }>
                 <div className={ styles.descInfo }>
                     <img className={ styles.logos } src={ git } alt="git" />
                     <img className={ styles.logos } src={ aws } alt="aws" />

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-// import { Carousel } from 'react-bootstrap/Carousel';
+import { Link } from '@reach/router';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -38,6 +38,7 @@ const Projects = (props) => {
                     <p>Language: { props.projects[props.projectId].language }</p>
                     <p>Framework used: { props.projects[props.projectId].framework }</p>
                     <p>{ props.projects[props.projectId].description }</p>
+                    <a href={ props.projects[props.projectId].github } target="_blank" rel="noopener noreferrer">Github</a>
                 </div>
                 : <div></div>
             }

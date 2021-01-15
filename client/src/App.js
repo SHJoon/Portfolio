@@ -7,7 +7,7 @@ import Resume from './views/Resume';
 
 // import images
 import easyshop from './images/easyshoplogo.png';
-import aqi from './images/air.jpg';
+import aqi from './images/air.png';
 import meet from './images/meetup.png';
 import discordpy from './images/discordpy.png';
 import machinelearning from './images/machinelearning.png'
@@ -46,7 +46,7 @@ function App() {
     "title": "EasyShop",
     "language": "Python",
     "framework": "Django",
-    "description": `An e-commerce website featuring 
+    "description": `E-commerce website featuring 
     secure user login/registration using bcrypt, shopping cart per user, 
     review system, and more.`,
     "prevImg": easyshop,
@@ -56,7 +56,7 @@ function App() {
     "title": "AQI-Maps",
     "language": "JavaScript",
     "framework": "MERN Stack",
-    "description": `An user-friendly interactive website showcasing fluent 
+    "description": `User-friendly interactive website showcasing fluent 
     implementation of Google Maps API and World Air Quality Index API. 
     Users can view the air quality index of every available US stations 
     with highly intuitive interface.`,
@@ -67,7 +67,7 @@ function App() {
     "title": "Let's Meet",
     "language": "Java",
     "framework": "Spring Boot",
-    "description": `A group meetup website where users can organize events
+    "description": `Group meetup website where users can organize events
     across different locations that allows people with common interest to 
     socialize and come together.`,
     "prevImg": meet,
@@ -76,7 +76,7 @@ function App() {
   }, {
     "title": "InHouseBot",
     "language": "Python",
-    "description": `A Discord Bot for gaming server featuring numerous handy 
+    "description": `Discord Bot for gaming server featuring numerous handy 
     utilies, such as queue system in which hundreds of users can organize events, 
     currency/rating system to automatically keep track of players' performance, 
     and many more.`,
@@ -86,7 +86,7 @@ function App() {
   }, {
     "title": "Network Intrusion Detection",
     "language": "Python",
-    "description": `A network intrusion detection project in which different 
+    "description": `Network intrusion detection project in which different 
     machine learning algorithms with different optimizations are employed to 
     detect anomaly vs normal network signal.`,
     "prevImg": machinelearning,

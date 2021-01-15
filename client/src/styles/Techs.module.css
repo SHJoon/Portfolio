@@ -1,6 +1,6 @@
 .tech {
     background: rgb(255,255,255);
-    background: linear-gradient( rgba(255,255,255,1) 15%, rgba(151,206,255,1) 50%, rgba(255,255,255,1) 95%);
+    background: linear-gradient( rgba(255,255,255,1) 0%, rgba(147,222,255,1) 95%, rgba(255,255,255,1) 100%);
 }
 
 .techTitle {
@@ -23,18 +23,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.descBlock1 {
-    /* background-color: aliceblue; */
-}
-
-.descBlock2 {
-    /* background-color: beige; */
-}
-
-.descBlock3 {
-    /* background-color: wheat; */
 }
 
 .descInfo{

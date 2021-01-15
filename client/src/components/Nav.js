@@ -13,8 +13,8 @@ const Nav = () => {
             <Link className={ styles.logo } to="/"><img className={ styles.logo } src={logo} alt="logo" /></Link>
             <div className={ styles.links }>
                 <Link className={ styles.eachLinks } to="/resume">Resume</Link>
-                <a className={ styles.eachLinks } href="https://github.com/SHJoon">GitHub </a>
-                <a className={ styles.eachLinks } href="https://www.linkedin.com/in/howard-shin/">Linkedin </a>
+                <a className={ styles.eachLinks } href="https://github.com/SHJoon" target="_blank" rel="noopener noreferrer">GitHub </a>
+                <a className={ styles.eachLinks } href="https://www.linkedin.com/in/howard-shin/" target="_blank" rel="noopener noreferrer">Linkedin </a>
             </div>
         </div>
     )

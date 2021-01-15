@@ -34,6 +34,12 @@
     .col-12 {width: 100%;}
   }
 
+.projects {
+    background: rgb(255,255,255);
+    background: linear-gradient( rgba(255,255,255,1) 0%, rgba(255,221,147,1) 95%, rgba(255,255,255,1) 100%);
+    padding: 0px 5px;
+}
+
 .projectTitle {
     padding: 0px;
     margin-top: 225px;

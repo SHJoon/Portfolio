@@ -15,23 +15,25 @@ const Main = (props) => {
         <div>
             <AboutMe />
             <Technologies />
-            <h1 className="projectTitle">Projects</h1>
-            <p className="projectIntro">Cool programs I've worked on</p>
-            <div className="row col-sm-12 project">
-            {
-                props.projects.map((project, i) => {
-                    return(<ProjectsPreview
-                        className="eachProject"
-                        setProjectId={ setProjectId }
-                        setProjectSelected={ setProjectSelected }
-                        key={i}
-                        project={ project }
-                        idx={i}
-                        />)
-                })
-            }
+            <div className="projects">
+                <h1 className="projectTitle">Projects</h1>
+                <p className="projectIntro">Cool programs I've worked on</p>
+                <div className="row col-sm-12 project">
+                {
+                    props.projects.map((project, i) => {
+                        return(<ProjectsPreview
+                            className="eachProject"
+                            setProjectId={ setProjectId }
+                            setProjectSelected={ setProjectSelected }
+                            key={i}
+                            project={ project }
+                            idx={i}
+                            />)
+                    })
+                }
+                </div>
+                <Projects projects={ props.projects } projectId={ projectId } projectSelected={ projectSelected }/>
             </div>
-            <Projects projects={ props.projects } projectId={ projectId } projectSelected={ projectSelected }/>
         </div>
     )
 }
