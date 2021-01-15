@@ -9,7 +9,7 @@ const Resume = () => {
 
     return(
         <div className={ styles.resume } >
-            <Document file={resume} size="object-fill">
+            <Document file={resume} size="A4">
                 <Page object-fit="fill" pageNumber={1} renderTextLayer={false}></Page>
             </Document>
         </div>

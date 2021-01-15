@@ -1,4 +1,7 @@
 .resume {
-    width: 800px;
+    border: 1px solid black;
+    width: 614px;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
