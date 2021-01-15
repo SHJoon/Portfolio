@@ -16,8 +16,8 @@ const AboutMe = () => {
             </div>
             <div className={ styles.block }>
                 <h3 className={ styles.selfIntro1 }>Howard Shin</h3>
-                <h3 className={ styles.selfIntro2 }>Web-developer who loves computer and music.</h3>
-                <p className={ styles.selfIntro3 }>I have a background in Computer Engineering, which was a combination of both software and hardware
+                <h3 className={ styles.selfIntro2 }>Web-developer who loves computers and music.</h3>
+                <p className={ styles.selfIntro3 }>I have a background in Computer Engineering, which is a combination of both the software and hardware
                     aspects of electronics. It is then that I found my passion for coding. By tackling difficult yet
                     invigorating challenges, I have developed skills to overcome the complexity of software development.
                     Computer Engineering, however, focused heavily on the hardware aspects, and so I learned how to be

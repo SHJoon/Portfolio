@@ -17,7 +17,7 @@ import styles from '../styles/Techs.module.css';
 const Technologies = () => {
 
     return(
-        <div>
+        <div className={ styles.tech }>
             <p className={ styles.techTitle }>Technologies</p>
             <p className={ styles.techIntro }>Stuff I know and love to use</p>
             
