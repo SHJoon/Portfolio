@@ -8,8 +8,7 @@ import '../styles/Main.css';
 
 const Main = (props) => {
 
-    const [ projectId, setProjectId ] = useState(-1);
-    const [ projectSelected, setProjectSelected ] = useState(0);
+    const [ projectId, setProjectId ] = useState(0);
 
     return(
         <div>
@@ -23,8 +22,8 @@ const Main = (props) => {
                     props.projects.map((project, i) => {
                         return(<ProjectsPreview
                             className="eachProject"
+                            projectId={ projectId }
                             setProjectId={ setProjectId }
-                            setProjectSelected={ setProjectSelected }
                             key={i}
                             project={ project }
                             idx={i}
@@ -32,7 +31,7 @@ const Main = (props) => {
                     })
                 }
                 </div>
-                <Projects projects={ props.projects } projectId={ projectId } projectSelected={ projectSelected }/>
+                <Projects projects={ props.projects } projectId={ projectId } />
             </div>
         </div>
     )

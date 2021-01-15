@@ -4,6 +4,7 @@ import { Router, Link } from '@reach/router';
 import Nav from './components/Nav';
 import Main from './views/Main';
 import Resume from './views/Resume';
+import Footer from './components/Footer';
 
 // import images
 import easyshop from './images/easyshoplogo.png';
@@ -101,6 +102,7 @@ function App() {
         <Main path="/" projects={ projects } />
         <Resume path="/resume" />
       </Router>
+      <Footer />
     </div>
   );
 }

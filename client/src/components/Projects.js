@@ -8,17 +8,13 @@ import styles from '../styles/Projects.module.css'
 
 const Projects = (props) => {
 
-    useEffect(() => {
-
-    }, [props.projectSelected]);
-
     return(
         <div className={styles.selected}>
             {
                 props.projectId !== -1 ?
                 <div>
                     <Carousel
-                    className={styles.selectedPics}
+                    className={ styles.selectedPics }
                     dynamicHeight={true}
                     emulateTouch={true}
                     // preventMovementUntilSwipeScrollTolerance={true}
@@ -34,11 +30,15 @@ const Projects = (props) => {
                         })
                     }
                     </Carousel>
-                    <h1>{ props.projects[props.projectId].title }</h1>
-                    <p>Language: { props.projects[props.projectId].language }</p>
-                    <p>Framework used: { props.projects[props.projectId].framework }</p>
-                    <p>{ props.projects[props.projectId].description }</p>
-                    <a href={ props.projects[props.projectId].github } target="_blank" rel="noopener noreferrer">Github</a>
+                    <div className={ styles.projectDesc }>
+                        <h1>{ props.projects[props.projectId].title }</h1>
+                        <div className= { styles.langFrame }>
+                            <h3 className= { styles.lang }>Language: { props.projects[props.projectId].language }</h3>
+                            {props.projects[props.projectId].framework && <h3>Framework: { props.projects[props.projectId].framework }</h3>}
+                        </div>
+                        <p className= { styles.descParagraph }>{ props.projects[props.projectId].description }</p>
+                        <a className= { styles.descParagraph } href={ props.projects[props.projectId].github } target="_blank" rel="noopener noreferrer">Github</a>
+                    </div>
                 </div>
                 : <div></div>
             }

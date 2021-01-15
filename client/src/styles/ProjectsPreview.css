@@ -9,12 +9,6 @@
 
 .preview:focus {
     outline:none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-.preview:active {
-    border-radius: 40px;
-    border: 1px solid black;
 }
 
 .projectImg {
@@ -54,6 +48,11 @@
     color: white;
     z-index: 2;
     font-size: 30px;
+}
+
+.isSelected {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color:white;
 }
 
 .preview:hover .centered {
