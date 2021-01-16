@@ -1,24 +1,26 @@
 .navbar {
-    /* position: fixed;
-    top: 0; */
     width: 100%;
     background-color: rgb(52,170,210);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .logo {
-    height: 90px;
-    margin-left: min(100px, 10%);
-    margin-right: min(50px, 5%);
+    width: 40%;
+    min-width:100px;
+    height: 100px;
+    display: inline-block;
 }
 
+
 .links {
-    display: flex;
-    align-content:space-between;
-    margin-left: auto;
-    margin-right: 50px;
+    width: 45%;
+    min-width:350px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.navLinks {
+    display: inline;
+    list-style: none;
 }
 
 .eachLinks {
