@@ -2,15 +2,21 @@ import React from 'react';
 import resume from '../documents/resume.pdf';
 import { Document, Page, pdfjs } from "react-pdf";
 import styles from '../styles/Resume.module.css';
+import '../styles/Resume.css'
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 const Resume = () => {
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
     return(
-        <div className={ styles.resume } >
+        <div className="resume" >
             <Document file={resume} size="A4">
-                <Page object-fit="fill" pageNumber={1} renderTextLayer={false}></Page>
+                <Page
+                object-fit="fill"
+                pageNumber={1}
+                renderTextLayer={false}
+                renderAnnotationLayer={true}
+                width={800}></Page>
             </Document>
         </div>
     )
