@@ -4,7 +4,7 @@ import { Link } from '@reach/router';
 
 import logo from '../images/logo.png';
 
-const Footer = (props) => {
+const Footer = () => {
 
     return(
         <div className={ styles.footer }>

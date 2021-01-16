@@ -1,8 +1,7 @@
 import React from 'react';
 import resume from '../documents/resume.pdf';
 import { Document, Page, pdfjs } from "react-pdf";
-import styles from '../styles/Resume.module.css';
-import '../styles/Resume.css'
+import '../styles/Resume.css';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 const Resume = () => {

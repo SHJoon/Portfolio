@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Link, navigate } from '@reach/router';
+import React from 'react';
+import { Link } from '@reach/router';
 
 // Import image
 import logo from '../images/logo.png';

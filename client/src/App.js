@@ -1,6 +1,6 @@
 import './App.css';
-import React, { useState, useEffect } from 'react';
-import { Router, Link } from '@reach/router';
+import React from 'react';
+import { Router } from '@reach/router';
 import FadeIn from 'react-fade-in';
 
 // import components/views

@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 // Import image
-import profile from '../images/profile4.jpg';
+import profile from '../images/profile.jpg';
 
 // Import styling
 import styles from '../styles/AboutMe.module.css';
