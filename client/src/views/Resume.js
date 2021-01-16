@@ -16,7 +16,7 @@ const Resume = () => {
                 pageNumber={1}
                 renderTextLayer={false}
                 renderAnnotationLayer={true}
-                width={800}></Page>
+                width={1000}></Page>
             </Document>
         </div>
     )
