@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
 import { Router } from '@reach/router';
-import FadeIn from 'react-fade-in';
 
 // import components/views
 import Nav from './components/Nav';
@@ -100,14 +99,14 @@ function App() {
 
   return (
     <div className="App">
-      <FadeIn transitionDuration={1200}>
+      {/* <FadeIn transitionDuration={1200}> */}
       <Nav className="nav" />
       <Router primary={false}>
         <Main path="/" projects={ projects } />
         <Resume path="/resume" />
       </Router>
       <Footer />
-      </FadeIn>
+      {/* </FadeIn> */}
     </div>
   );
 }

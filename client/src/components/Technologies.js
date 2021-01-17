@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 // Import images
 import html from '../images/html.png';
@@ -18,73 +19,82 @@ const Technologies = () => {
 
     return(
         <div className={ styles.tech }>
-            <p className={ styles.techTitle }>Technologies</p>
-            <p className={ styles.techIntro }>Stuff I know and love to use</p>
+            <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true}>
+                <p className={ styles.techTitle }>Technologies</p>
+            </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true}>
+                <p className={ styles.techIntro }>Stuff I know and love to use</p>
+                
+                <div className={ styles.descBlock }>
+                    <div className={ styles.descInfo }>
+                        <img className={ styles.logos } src={ html } alt="html" />
+                        <img className={ styles.logos } src={ css } alt="css" />
+                        <img className={ styles.logos } src={ react } alt="react" />
+                    </div>
+                    <div className={ styles.descInfo }>
+                        <h1>Front-End</h1>
+                        <div>
+                            <h3 className={ styles.descTitle }>Languages</h3>
+                            <p className={ styles.descContent }>HTML, CSS, JavaScript</p>
+                        </div>
+                        <div>
+                            <h3 className={ styles.descTitle }>Techs Utilized</h3>
+                            <p className={ styles.descContent }>React, Bootstrap, jQuery</p>
+                        </div>
+                    </div>
+                </div>
+            </ScrollAnimation>
             
-            <div className={ styles.descBlock }>
-                <div className={ styles.descInfo }>
-                    <img className={ styles.logos } src={ html } alt="html" />
-                    <img className={ styles.logos } src={ css } alt="css" />
-                    <img className={ styles.logos } src={ react } alt="react" />
-                </div>
-                <div className={ styles.descInfo }>
-                    <h1>Front-End</h1>
-                    <div>
-                        <h3 className={ styles.descTitle }>Languages</h3>
-                        <p className={ styles.descContent }>HTML, CSS, JavaScript</p>
+
+            <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true}>
+                <div className={ styles.descBlock }>
+                    <div className={ styles.descInfo }>
+                        <h1>Back-End</h1>
+                        <div>
+                            <h3 className={ styles.descTitle }>Languages</h3>
+                            <p className={ styles.descContent }>Python, JavaScript, Java</p>
+                        </div>
+                        <div>
+                            <h3 className={ styles.descTitle }>Techs Utilized</h3>
+                            <p className={ styles.descContent }>
+                                Django, MongoDB, Express.js, Node.js, Socket.IO, Spring Boot, MySQL, NoSQL, 
+                                bcrypt, Regex
+                            </p>
+                        </div>
                     </div>
-                    <div>
-                        <h3 className={ styles.descTitle }>Techs Utilized</h3>
-                        <p className={ styles.descContent }>React, Bootstrap, jQuery</p>
+                    <div className={ styles.descInfo }>
+                        <img className={ styles.logos } src={ python } alt="python" />
+                        <img className={ styles.logos } src={ javascript } alt="javascript" />
+                        <img className={ styles.logos } src={ java } alt="java" />
                     </div>
                 </div>
-            </div>
+            </ScrollAnimation>
             
-            <div className={ styles.descBlock }>
-                <div className={ styles.descInfo }>
-                    <h1>Back-End</h1>
-                    <div>
-                        <h3 className={ styles.descTitle }>Languages</h3>
-                        <p className={ styles.descContent }>Python, JavaScript, Java</p>
+            <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true}>
+                <div className={ styles.descBlock }>
+                    <div className={ styles.descInfo }>
+                        <img className={ styles.logos } src={ git } alt="git" />
+                        <img className={ styles.logos } src={ aws } alt="aws" />
+                        <img className={ styles.logos } src={ maps } alt="maps" />
                     </div>
-                    <div>
-                        <h3 className={ styles.descTitle }>Techs Utilized</h3>
-                        <p className={ styles.descContent }>
-                            Django, MongoDB, Express.js, Node.js, Socket.IO, Spring Boot, MySQL, NoSQL, 
-                            bcrypt, Regex
-                        </p>
-                    </div>
-                </div>
-                <div className={ styles.descInfo }>
-                    <img className={ styles.logos } src={ python } alt="python" />
-                    <img className={ styles.logos } src={ javascript } alt="javascript" />
-                    <img className={ styles.logos } src={ java } alt="java" />
-                </div>
-            </div>
-            
-            <div className={ styles.descBlock }>
-                <div className={ styles.descInfo }>
-                    <img className={ styles.logos } src={ git } alt="git" />
-                    <img className={ styles.logos } src={ aws } alt="aws" />
-                    <img className={ styles.logos } src={ maps } alt="maps" />
-                </div>
-                <div className={ styles.descInfo }>
-                    <h1>Other Skills</h1>
-                    <div>
-                        <h3 className={ styles.descTitle }>Tools</h3>
-                        <p className={ styles.descContent }>
-                            Git, GitHub, Visual Studios Code, scikit-learn, AWS Deployment, 
-                            Discord API, Google Spreadsheet API, Google Maps API, PSpice
-                        </p>
-                    </div>
-                    <div>
-                        <h3 className={ styles.descTitle }>Concepts</h3>
-                        <p className={ styles.descContent }>
-                            RESTful API, Machine learning, Data science, ORM, MTV, MVC, Asynchronous programming
-                        </p>
+                    <div className={ styles.descInfo }>
+                        <h1>Other Skills</h1>
+                        <div>
+                            <h3 className={ styles.descTitle }>Tools</h3>
+                            <p className={ styles.descContent }>
+                                Git, GitHub, Visual Studios Code, scikit-learn, AWS Deployment, 
+                                Discord API, Google Spreadsheet API, Google Maps API, PSpice
+                            </p>
+                        </div>
+                        <div>
+                            <h3 className={ styles.descTitle }>Concepts</h3>
+                            <p className={ styles.descContent }>
+                                RESTful API, Machine learning, Data science, ORM, MTV, MVC, Asynchronous programming
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </ScrollAnimation>
 
         </div>
     )
