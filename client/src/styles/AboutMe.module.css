@@ -2,6 +2,7 @@
 
 .intro {
     padding-top: 125px;
+    padding-bottom: 140px;
     background-image: url("../images/introBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,7 +22,7 @@
 .pic {
     width: 280px;
     border-radius: 50%;
-    margin: 10px auto 150px;
+    margin: 10px auto;
 }
 
 .block {
