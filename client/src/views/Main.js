@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe';
 import Technologies from '../components/Technologies';
 import ProjectsPreview from '../components/ProjectsPreview';
 import Projects from '../components/Projects.js';
+import Contributions from '../components/Contributions.js';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import '../styles/Main.css';
@@ -39,6 +40,7 @@ const Main = (props) => {
                 <ScrollAnimation animateIn="bounceInUp" duration={1} animateOnce={true}>
                     <Projects projects={ props.projects } projectId={ projectId } />
                 </ScrollAnimation>
+                {/* <Contributions /> */}
             </div>
         </div>
     )

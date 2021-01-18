@@ -33,3 +33,26 @@ h1 {
 .descParagraph {
     font-size: 20px;
 }
+
+.githubBtn {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    color: black;
+    letter-spacing: 1px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.githubBtn:hover {
+    color: black;
+    text-decoration: none;
+    filter:invert(1);
+}
+
+.githubLogo {
+    margin-left: 1px;
+    width: 30px;
+    padding-bottom: 6px;
+}
