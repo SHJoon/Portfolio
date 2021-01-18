@@ -26,8 +26,8 @@ const AboutMe = () => {
                     <h3 className={ styles.selfIntro1 }>Howard Shin</h3>
                     <h3 className={ styles.selfIntro2 }>Web-developer who loves computers and music.</h3>
                     <p className={ styles.selfIntro3 }>My education in Computer Engineering kindled my passion for software development,
-                    tackling difficult yet invigorating challenges. Through coding bootcamp and personal projects, I learned the joy of
-                    collaborating with others, creating optimal solutions of my own, and improving myself along the process.
+                    tackling difficult yet invigorating challenges. Through a coding bootcamp and personal projects, I discovered the joy
+                    of both creating my own optimal solutions and collaborating with others, continuously improving my skills along the way.
                     </p>
                 </ScrollAnimation>
             </div>
