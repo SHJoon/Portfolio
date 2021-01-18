@@ -49,7 +49,7 @@ function App() {
     "title": "EasyShop",
     "language": "Python",
     "framework": "Django",
-    "description": `E-commerce website featuring 
+    "description": `An e-commerce website featuring 
     secure user login/registration using bcrypt, shopping cart per user, 
     review system, and more.`,
     "prevImg": easyshop,
@@ -59,7 +59,7 @@ function App() {
     "title": "AQI-Maps",
     "language": "JavaScript",
     "framework": "MERN Stack",
-    "description": `User-friendly interactive website showcasing fluent 
+    "description": `A user-friendly interactive website showcasing fluent 
     implementation of Google Maps API and World Air Quality Index API. 
     Users can view the air quality index of every available US stations 
     with highly intuitive interface.`,
@@ -70,7 +70,7 @@ function App() {
     "title": "Let's Meet",
     "language": "Java",
     "framework": "Spring Boot",
-    "description": `Group meetup website where users can organize events
+    "description": `A group meetup website where users can organize events
     across different locations that allows people with common interest to 
     socialize and come together.`,
     "prevImg": meet,
@@ -79,7 +79,7 @@ function App() {
   }, {
     "title": "InHouseBot",
     "language": "Python",
-    "description": `Discord Bot for gaming server featuring numerous handy 
+    "description": `A Discord Bot for gaming server featuring numerous handy 
     utilies, such as queue system in which hundreds of users can organize events, 
     currency/rating system to automatically keep track of players' performance, 
     and many more.`,
@@ -89,7 +89,7 @@ function App() {
   }, {
     "title": "Network Intrusion Detection",
     "language": "Python",
-    "description": `Network intrusion detection project in which different 
+    "description": `A network intrusion detection project in which different 
     machine learning algorithms with different optimizations are employed to 
     detect anomaly vs normal network signal.`,
     "prevImg": machinelearning,
@@ -99,14 +99,12 @@ function App() {
 
   return (
     <div className="App">
-      {/* <FadeIn transitionDuration={1200}> */}
       <Nav className="nav" />
       <Router primary={false}>
         <Main path="/" projects={ projects } />
         <Resume path="/resume" />
       </Router>
       <Footer />
-      {/* </FadeIn> */}
     </div>
   );
 }

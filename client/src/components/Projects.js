@@ -39,12 +39,12 @@ const Projects = (props) => {
                         </div>
                         <p className= { styles.descParagraph }>{ props.projects[props.projectId].description }</p>
                         <a
-                        className= {`${ styles.descParagraph } ${ styles.githubBtn }`}
+                        className= { styles.githubBtn }
                         href={ props.projects[props.projectId].github }
                         target="_blank"
                         rel="noopener noreferrer"
                         >
-                            Checkout the code!&nbsp;
+                            Check out the code!&nbsp;
                             <img className={ styles.githubLogo } src={ github } alt="github" />
                         </a>
                     </div>

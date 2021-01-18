@@ -5,7 +5,6 @@ import '../styles/ProjectsPreview.css';
 const ProjectsPreview = (props) => {
 
     const handleClick = (e, id) => {
-        console.log(props.projectSelected);
         props.setProjectId(id);
     }
 

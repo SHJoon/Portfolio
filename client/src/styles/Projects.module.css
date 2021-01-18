@@ -22,6 +22,7 @@ h1 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     max-width: 700px;
     line-height: 27px;
 }
@@ -32,11 +33,12 @@ h1 {
 
 .descParagraph {
     font-size: 20px;
+    margin-bottom: 45px;
 }
 
 .githubBtn {
-    margin-bottom: 20px;
     padding: 10px 15px;
+    font-size: 20px;
     color: black;
     letter-spacing: 1px;
     background-color: white;
