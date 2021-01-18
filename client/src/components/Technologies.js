@@ -20,7 +20,7 @@ const Technologies = () => {
     return(
         <div className={ styles.tech }>
             <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true}>
-                <p className={ styles.techTitle }>Technologies</p>
+                <p className={ styles.techTitle }>Technical Skills</p>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeIn" duration={2} animateOnce={true}>
                 <p className={ styles.techIntro }>Stuff I know and love to use</p>

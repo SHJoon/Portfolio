@@ -40,8 +40,8 @@ const Main = (props) => {
                 <ScrollAnimation animateIn="bounceInUp" duration={1} animateOnce={true}>
                     <Projects projects={ props.projects } projectId={ projectId } />
                 </ScrollAnimation>
-                {/* <Contributions /> */}
             </div>
+            <Contributions />
         </div>
     )
 }

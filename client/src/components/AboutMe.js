@@ -25,8 +25,8 @@ const AboutMe = () => {
                 <ScrollAnimation animateIn="zoomIn" duration={1} animatePreScroll={false} animateOnce={true}>
                     <h3 className={ styles.selfIntro1 }>Howard Shin</h3>
                     <h3 className={ styles.selfIntro2 }>Web-developer who loves computers and music.</h3>
-                    <p className={ styles.selfIntro3 }>My background in Computer Engineering piqued my passion for software development,
-                    tackling difficult yet invigorating challenges. Through coding bootcamp and personal projects, I learned the joys of
+                    <p className={ styles.selfIntro3 }>My education in Computer Engineering kindled my passion for software development,
+                    tackling difficult yet invigorating challenges. Through coding bootcamp and personal projects, I learned the joy of
                     collaborating with others, creating optimal solutions of my own, and improving myself along the process.
                     </p>
                 </ScrollAnimation>
