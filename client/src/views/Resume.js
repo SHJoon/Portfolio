@@ -21,7 +21,7 @@ const Resume = () => {
                 <div style={{height:"10px"}}></div>
             </div>
             <div>
-                <a className="dl" href={resume} download>Download Resume</a>
+                <a className="dl" href={resume} download="Resume_Howard_Shin">Download Resume</a>
             </div>
             <div style={{height:"20px"}}></div>
         </div>
