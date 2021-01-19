@@ -1,8 +1,9 @@
 import React from 'react';
 import resume from '../documents/resume_howard_shin.pdf';
 import { Document, Page, pdfjs } from "react-pdf";
-import '../styles/Resume.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+import '../styles/Resume.css';
 
 const Resume = () => {
     pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -20,9 +21,11 @@ const Resume = () => {
                 </Document>
                 <div style={{height:"10px"}}></div>
             </div>
-            <div>
-                <a className="dl" href={resume} download="Resume_Howard_Shin">Download Resume</a>
-            </div>
+            <ScrollAnimation animateIn="pulse" duration={1} animateOnce={true} animatePreScroll={false} initiallyVisible={true}>
+                <div>
+                    <a className="dl" href={resume} download="Resume_Howard_Shin">Download Resume</a>
+                </div>
+            </ScrollAnimation>
             <div style={{height:"20px"}}></div>
         </div>
     )

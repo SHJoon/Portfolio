@@ -17,11 +17,11 @@ const Main = (props) => {
             <AboutMe/>
             <Technologies />
             <div className="projects">
-                <ScrollAnimation animateIn="bounceInUp" duration={1} animateOnce={true}>
+                <ScrollAnimation delay={1} animateIn="bounceInUp" duration={1} animateOnce={true}>
                     <h1 className="projectTitle">Projects</h1>
                     <p className="projectIntro">Cool programs I've worked on</p>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn="bounceInUp" duration={1} animateOnce={true}>
+                <ScrollAnimation delay={1} animateIn="bounceInUp" duration={1} animateOnce={true}>
                     <div className="row col-sm-12 project">
                     {
                         props.projects.map((project, i) => {
@@ -37,7 +37,7 @@ const Main = (props) => {
                     }
                     </div>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn="bounceInUp" duration={1} animateOnce={true}>
+                <ScrollAnimation delay={1} animateIn="bounceInUp" duration={1} animateOnce={true}>
                     <Projects projects={ props.projects } projectId={ projectId } />
                 </ScrollAnimation>
             </div>
