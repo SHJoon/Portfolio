@@ -19,12 +19,12 @@ const Technologies = () => {
 
     return(
         <div className={ styles.tech }>
-            <ScrollAnimation delay={1} animateIn="fadeIn" duration={2} animateOnce={true}>
+            <ScrollAnimation delay={150} animateIn="fadeIn" duration={2} animateOnce={true}>
                 <p className={ styles.techTitle }>Technical Skills</p>
                 <p className={ styles.techIntro }>Stuff I know and love to use</p>
             </ScrollAnimation>
                 
-            <ScrollAnimation delay={1} animateIn="fadeIn" duration={2} animateOnce={true}>
+            <ScrollAnimation delay={150} animateIn="fadeIn" duration={2} animateOnce={true}>
                 <div className={ styles.descBlock }>
                     <div className={ styles.descInfo }>
                         <img className={ styles.logos } src={ html } alt="html" />
@@ -46,7 +46,7 @@ const Technologies = () => {
             </ScrollAnimation>
             
 
-            <ScrollAnimation delay={1} animateIn="fadeIn" duration={2} animateOnce={true}>
+            <ScrollAnimation delay={150} animateIn="fadeIn" duration={2} animateOnce={true}>
                 <div className={ styles.descBlock }>
                     <div className={ styles.descInfo }>
                         <h1>Back-End</h1>
@@ -70,7 +70,7 @@ const Technologies = () => {
                 </div>
             </ScrollAnimation>
             
-            <ScrollAnimation delay={1} animateIn="fadeIn" duration={2} animateOnce={true}>
+            <ScrollAnimation delay={150} animateIn="fadeIn" duration={2} animateOnce={true}>
                 <div className={ styles.descBlock }>
                     <div className={ styles.descInfo }>
                         <img className={ styles.logos } src={ git } alt="git" />
