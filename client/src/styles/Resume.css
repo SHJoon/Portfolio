@@ -12,15 +12,16 @@
     font-size: 25px;
     color: white;
     font-weight: bold;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     background-color: rgb(52, 144, 187);
     text-decoration: none;
     border-radius: 50px;
-    transition: 0.3s;
+    transition: all 0.3s ease 0s;
 }
 
 .dl:hover{
     color: white;
     background-color: black;
+    letter-spacing: 1px;
     text-decoration: none;
 }
