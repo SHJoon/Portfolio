@@ -82,8 +82,8 @@ const Technologies = () => {
                         <div>
                             <h3 className={ styles.descTitle }>Tools</h3>
                             <p className={ styles.descContent }>
-                                Git, GitHub, Visual Studios Code, scikit-learn, AWS Deployment, 
-                                Discord API, Google Spreadsheet API, Google Maps API, PSpice
+                                Git, GitHub, scikit-learn, AWS Deployment, Discord API, 
+                                Google Spreadsheet API, Google Maps API, Visual Studios Code, PSpice
                             </p>
                         </div>
                         <div>
