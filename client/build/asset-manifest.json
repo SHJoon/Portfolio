@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.13c3345e.chunk.css",
-    "main.js": "/static/js/main.a4064703.chunk.js",
-    "main.js.map": "/static/js/main.a4064703.chunk.js.map",
+    "main.css": "/static/css/main.91775133.chunk.css",
+    "main.js": "/static/js/main.ecdcb285.chunk.js",
+    "main.js.map": "/static/js/main.ecdcb285.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2d254542.js",
     "runtime-main.js.map": "/static/js/runtime-main.2d254542.js.map",
     "static/css/2.de7ea2d6.chunk.css": "/static/css/2.de7ea2d6.chunk.css",
-    "static/js/2.2a159110.chunk.js": "/static/js/2.2a159110.chunk.js",
-    "static/js/2.2a159110.chunk.js.map": "/static/js/2.2a159110.chunk.js.map",
+    "static/js/2.3cb310fb.chunk.js": "/static/js/2.3cb310fb.chunk.js",
+    "static/js/2.3cb310fb.chunk.js.map": "/static/js/2.3cb310fb.chunk.js.map",
     "static/js/3.a0829c4b.chunk.js": "/static/js/3.a0829c4b.chunk.js",
     "static/js/3.a0829c4b.chunk.js.map": "/static/js/3.a0829c4b.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.de7ea2d6.chunk.css.map": "/static/css/2.de7ea2d6.chunk.css.map",
-    "static/css/main.13c3345e.chunk.css.map": "/static/css/main.13c3345e.chunk.css.map",
-    "static/js/2.2a159110.chunk.js.LICENSE.txt": "/static/js/2.2a159110.chunk.js.LICENSE.txt",
+    "static/css/main.91775133.chunk.css.map": "/static/css/main.91775133.chunk.css.map",
+    "static/js/2.3cb310fb.chunk.js.LICENSE.txt": "/static/js/2.3cb310fb.chunk.js.LICENSE.txt",
     "static/media/air.d56e62a2.png": "/static/media/air.d56e62a2.png",
     "static/media/aqi1.f16524f1.png": "/static/media/aqi1.f16524f1.png",
     "static/media/aqi2.19d1c036.png": "/static/media/aqi2.19d1c036.png",
@@ -51,13 +51,13 @@
     "static/media/profile.9c83477c.jpg": "/static/media/profile.9c83477c.jpg",
     "static/media/python.f22d1fce.png": "/static/media/python.f22d1fce.png",
     "static/media/react.6638f4b9.png": "/static/media/react.6638f4b9.png",
-    "static/media/resume_howard_shin.f94e3c8c.pdf": "/static/media/resume_howard_shin.f94e3c8c.pdf"
+    "static/media/resume_howard_shin.b7eeee71.pdf": "/static/media/resume_howard_shin.b7eeee71.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.2d254542.js",
     "static/css/2.de7ea2d6.chunk.css",
-    "static/js/2.2a159110.chunk.js",
-    "static/css/main.13c3345e.chunk.css",
-    "static/js/main.a4064703.chunk.js"
+    "static/js/2.3cb310fb.chunk.js",
+    "static/css/main.91775133.chunk.css",
+    "static/js/main.ecdcb285.chunk.js"
   ]
 }
