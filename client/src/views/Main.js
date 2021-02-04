@@ -41,7 +41,7 @@ const Main = (props) => {
                     <Projects projects={ props.projects } projectId={ projectId } />
                 </ScrollAnimation>
             </div>
-            <Contributions />
+            {/* <Contributions /> */}
         </div>
     )
 }
