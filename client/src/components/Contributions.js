@@ -14,8 +14,8 @@ const Contributions = () => {
                 </div>
             </ScrollAnimation>
             <ScrollAnimation delay={1} animateIn="bounceIn" duration={1} animateOnce={true}>
-                {/* <img className={ styles.chart } src="https://ghchart.rshah.org/3490bb/SHJoon" alt="Howard Github Contributions" /> */}
-                <img className={ styles.chart } src="https://grass-graph.moshimo.works/images/SHJoon.png?background=none" alt="Howard Github Contributions" />
+                <img className={ styles.chart } src="https://ghchart.rshah.org/3490bb/SHJoon" alt="Howard Github Contributions" />
+                {/* <img className={ styles.chart } src="https://grass-graph.moshimo.works/images/SHJoon.png?background=none" alt="Howard Github Contributions" /> */}
             </ScrollAnimation>
         </div>
     );
