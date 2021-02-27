@@ -65,7 +65,8 @@ function App() {
     with highly intuitive interface.`,
     "prevImg": aqi,
     "github": "https://github.com/SHJoon/AQI-Maps",
-    "images": [aqi1, aqi2, aqi3, aqi4]
+    "images": [aqi1, aqi2, aqi3, aqi4],
+    "deploy": "http://shjoon.github.io/AQI-Maps"
   }, {
     "title": "Let's Meet",
     "language": "Java",

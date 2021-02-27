@@ -51,6 +51,17 @@ const Projects = (props) => {
                                 Check out the code!&nbsp;
                                 <img className={ styles.githubLogo } src={ github } alt="github" />
                             </a>
+                            {
+                                props.projects[props.projectId]["deploy"] &&
+                                <a
+                                href={props.projects[props.projectId]["deploy"]}
+                                className={ styles.deploy }
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                    View the site!
+                                </a>
+                            }
                         </div>
                     </ScrollAnimation>
                 </div>
