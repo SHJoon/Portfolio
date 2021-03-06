@@ -39,7 +39,7 @@ const Technologies = () => {
                         </div>
                         <div>
                             <h3 className={ styles.descTitle }>Techs Utilized</h3>
-                            <p className={ styles.descContent }>React, Bootstrap, jQuery, Redux, Material-UI</p>
+                            <p className={ styles.descContent }>React, Bootstrap, Redux, Material-UI, jQuery</p>
                         </div>
                     </div>
                 </div>
