@@ -57,8 +57,7 @@ const Technologies = () => {
                         <div>
                             <h3 className={ styles.descTitle }>Techs Utilized</h3>
                             <p className={ styles.descContent }>
-                                Django, MongoDB, Express.js, Node.js, Socket.IO, Spring Boot, MySQL, NoSQL, 
-                                bcrypt, Regex
+                                Django, MongoDB, Express.js, Node.js, Socket.IO, Spring Boot, MySQL, NoSQL
                             </p>
                         </div>
                     </div>
