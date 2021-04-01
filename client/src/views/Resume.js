@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../documents/resume_howard_shin.pdf';
+import resume from '../documents/Resume_Shin_Howard.pdf';
 import { Document, Page, pdfjs } from "react-pdf";
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
