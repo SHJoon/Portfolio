@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dd4c5390.chunk.css",
-    "main.js": "/static/js/main.334f6566.chunk.js",
-    "main.js.map": "/static/js/main.334f6566.chunk.js.map",
+    "main.js": "/static/js/main.fd60bff5.chunk.js",
+    "main.js.map": "/static/js/main.fd60bff5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2d254542.js",
     "runtime-main.js.map": "/static/js/runtime-main.2d254542.js.map",
     "static/css/2.de7ea2d6.chunk.css": "/static/css/2.de7ea2d6.chunk.css",
@@ -51,13 +51,19 @@
     "static/media/nids5.98a6737b.png": "/static/media/nids5.98a6737b.png",
     "static/media/profile.9c83477c.jpg": "/static/media/profile.9c83477c.jpg",
     "static/media/python.f22d1fce.png": "/static/media/python.f22d1fce.png",
-    "static/media/react.6638f4b9.png": "/static/media/react.6638f4b9.png"
+    "static/media/react.6638f4b9.png": "/static/media/react.6638f4b9.png",
+    "static/media/weather.c1338bef.png": "/static/media/weather.c1338bef.png",
+    "static/media/weekly1.d64c3663.png": "/static/media/weekly1.d64c3663.png",
+    "static/media/weekly2.40a2ba50.png": "/static/media/weekly2.40a2ba50.png",
+    "static/media/weekly3.8922596a.png": "/static/media/weekly3.8922596a.png",
+    "static/media/weekly4.d6eb65a4.png": "/static/media/weekly4.d6eb65a4.png",
+    "static/media/weekly5.5ed83b8c.png": "/static/media/weekly5.5ed83b8c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2d254542.js",
     "static/css/2.de7ea2d6.chunk.css",
     "static/js/2.3cb310fb.chunk.js",
     "static/css/main.dd4c5390.chunk.css",
-    "static/js/main.334f6566.chunk.js"
+    "static/js/main.fd60bff5.chunk.js"
   ]
 }

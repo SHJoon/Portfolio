@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 // import images
 import easyshop from './images/easyshoplogo.png';
 import aqi from './images/air.png';
+import weather from './images/weather.png';
 import meet from './images/meetup.png';
 import discordpy from './images/discordpy.png';
 import machinelearning from './images/machinelearning.png'
@@ -25,6 +26,12 @@ import aqi1 from './images/mern/aqi1.png';
 import aqi2 from './images/mern/aqi2.png';
 import aqi3 from './images/mern/aqi3.png';
 import aqi4 from './images/mern/aqi4.png';
+
+import weekly1 from './images/weekly/weekly1.png';
+import weekly2 from './images/weekly/weekly2.png';
+import weekly3 from './images/weekly/weekly3.png';
+import weekly4 from './images/weekly/weekly4.png';
+import weekly5 from './images/weekly/weekly5.png';
 
 import meet1 from './images/spring/meet1.png';
 import meet2 from './images/spring/meet2.png';
@@ -67,6 +74,17 @@ function App() {
     "github": "https://github.com/SHJoon/AQI-Maps",
     "images": [aqi1, aqi2, aqi3, aqi4],
     "deploy": "http://shjoon.github.io/AQI-Maps"
+  }, {
+    "title": "Weekly Forecast",
+    "language": "JavaScript",
+    "framework": "React.js",
+    "description": `A simple weather app showing 5-day forecast for any
+    city in the world. The project showcases responsive web design, where
+    nearly all of the styling has been implemented through Bootstrap 4.`,
+    "prevImg": weather,
+    "github": "https://github.com/SHJoon/Weekly-Forecast",
+    "images": [weekly1, weekly2, weekly3, weekly4, weekly5],
+    "deploy": "http://shjoon.github.io/Weekly-Forecast"
   }, {
     "title": "Let's Meet",
     "language": "Java",
